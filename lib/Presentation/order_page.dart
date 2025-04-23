@@ -7,3 +7,11 @@ class OrderPage extends StatefulWidget {
   @override
   State<OrderPage> createState() => _OrderPageState();
 }
+
+class _OrderPageState extends State<OrderPage> {
+  final TextEditingController makananController = TextEditingController();
+  final TextEditingController minumanController = TextEditingController();
+  final TextEditingController jumlahMakananController = TextEditingController();
+  final TextEditingController jumlahMinumanController = TextEditingController();
+
+  
